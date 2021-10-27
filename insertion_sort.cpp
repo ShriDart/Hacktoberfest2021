@@ -1,7 +1,7 @@
 // C++ program for insertion sort
 #include <bits/stdc++.h>
 using namespace std;
-
+//insertion
 void insertionSort(int arr[], int n)
 {
 	int i, key, j;
@@ -19,7 +19,7 @@ void insertionSort(int arr[], int n)
 		arr[j + 1] = key;
 	}
 }
-
+//print the array
 void printArray(int arr[], int n)
 {
 	int i;
@@ -27,7 +27,7 @@ void printArray(int arr[], int n)
 		cout << arr[i] << " ";
 	cout << endl;
 }
-
+//driver code
 int main()
 {
 	int arr[] = { 12, 11, 13, 5, 6 };
